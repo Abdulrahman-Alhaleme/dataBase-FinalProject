@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables (sensitive data)
+.env
+.env.local
+.env.production
+.env.development
+**/.env
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Uploads (user-uploaded files)
+revrent/backend/uploads/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Coverage
+coverage/
